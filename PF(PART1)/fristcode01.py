@@ -6,12 +6,22 @@ hight = 5.5
 
 print("My name is", name, "and my age is", age, "and my height is", hight) #using variables
 
+# Integer
 a = 10
-b = 10.5
-c = "Python"
-d = True
+print(a, type(a))
 
-print(type(a))
-print(type(b))
-print(type(c))
-print(type(d))  #Data types of variables
+# Float
+b = 10.5
+print(b, type(b))
+
+# String
+c = "Python"
+print(c, type(c))
+
+# Boolean
+d = True
+print(d, type(d))
+
+# None
+e = None
+print(e, type(e)) #Data types of variables
